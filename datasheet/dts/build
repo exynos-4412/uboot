@@ -1,0 +1,4 @@
+Error:/home/jf/work/git/exynos4412/uboot/u-boot-2014.01/scripts/dtc-version.sh: line 17: dtc: command not found
+	
+	run cmd:apt-get install device-tree-compiler
+		install dtc for build dts
