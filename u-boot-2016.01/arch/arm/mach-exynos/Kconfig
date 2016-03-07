@@ -67,6 +67,9 @@ config TARGET_PEACH_PIT
 	select SUPPORT_SPL
 	select OF_CONTROL
 
+config TARGET_UT4412
+	bool "Exynos4412 ut4412 board"
+	
 endchoice
 
 config SYS_SOC
@@ -81,5 +84,5 @@ source "board/samsung/odroid/Kconfig"
 source "board/samsung/arndale/Kconfig"
 source "board/samsung/smdk5250/Kconfig"
 source "board/samsung/smdk5420/Kconfig"
-
+source "board/samsung/ut4412/Kconfig"
 endif
